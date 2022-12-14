@@ -93,9 +93,11 @@ section {
 .navbar__menu .menu__link {
   color: #f2f4f6;
   display: block;
-  padding: 1em;
+  padding: 1em 2em;
   font-weight: bold;
+  font-size: 18px;
   text-decoration: none;
+  border-radius: 5px;
 }
 
 .navbar__menu .menu__link:hover {
@@ -221,7 +223,7 @@ section.your-active-class {
 
 section.your-active-class h2 {
   color: #333;
-  padding: 5px;
+  padding: 5px 15px;
   border-radius: 10px;
   animation-name: changeColor;
   animation-duration: 800ms;
@@ -244,6 +246,7 @@ section.your-active-class .landing__container::after {
 .activeLink {
   background: #fff;
   color: #313131 !important;
+  border-radius: 5px;
 }
 
 /* Section Active Styles Keyframe Animations */
@@ -298,7 +301,7 @@ section.your-active-class .landing__container::after {
   .list-menu span {
     height: 1.8px;
     width: 100%;
-    background-color: #000;
+    background-color: #fff;
     margin-bottom: 5px;
   }
 

@@ -113,7 +113,9 @@ function openMenu() {
   let menu = document.querySelector(".list-menu");
   if (navBar.style.display != "block" && menu.style.display != "none") {
     navBar.style.display = "block";
-    menu.style.display = "none";
+    // menu.style.display = "none";
+  } else {
+    navBar.style.display = "none";
   }
 }
 

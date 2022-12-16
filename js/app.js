@@ -85,7 +85,7 @@ function removeActiveClass(a) {
 function activeSection(element) {
   if (
     element.getBoundingClientRect().bottom > 0 &&
-    element.getBoundingClientRect().bottom < 800
+    element.getBoundingClientRect().bottom < 900
   ) {
     sections.forEach((e) => {
       e.classList.remove("your-active-class");
@@ -113,7 +113,6 @@ function openMenu() {
   let menu = document.querySelector(".list-menu");
   if (navBar.style.display != "block" && menu.style.display != "none") {
     navBar.style.display = "block";
-    // menu.style.display = "none";
   } else {
     navBar.style.display = "none";
   }

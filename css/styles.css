@@ -100,12 +100,6 @@ section {
   border-radius: 5px;
 }
 
-.navbar__menu .menu__link:hover {
-  background: #fff;
-  color: #313131;
-  transition: ease 0.3s all;
-}
-
 /* Footer Styles */
 .page__footer {
   background: #313131;
@@ -247,6 +241,7 @@ section.your-active-class .landing__container::after {
   background: #fff;
   color: #313131 !important;
   border-radius: 5px;
+  transition: ease 0.3s all;
 }
 
 /* Section Active Styles Keyframe Animations */
